@@ -1,0 +1,176 @@
+
+# Scenarios tabına tıklanır.
+* "scenariosTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "scenariosTab_SideBarTabs" elementine tıkla
+
+# Scenarios sayfasında seçilen projede edite tıklanır
+* "EditButtonForScenario" elementinin görünür olması kontrol edilir
+* "EditButtonForScenario" elementine tıkla
+
+# <projectName> adlı proje seçilir
+* "projectNameList" elementinin görünür olması kontrol edilir
+* "projectNameList" elementinin değerini temizle
+* "projectNameList" elementine <projectName> değerini yaz
+* "selectedProject" elementinin görünür olması kontrol edilir
+* "selectedProject" elementine tıkla
+
+# Proje filtreleme kısmından <projectName> adlı projeyi seç
+* "projectsss" elementinin görünür olması kontrol edilir
+* "projectsss" elementine tıkla
+* "projectsBoxInput_ReportsPage_TestExecutionsAuto" elementinin görünür olması kontrol edilir
+* "projectsBoxInput_ReportsPage_TestExecutionsAuto" elementine <projectName> değerini yaz
+* "firstProjectSearch" elementinin görünür olması kontrol edilir
+* "firstProjectSearch" elementine tıkla
+* "last90DaysButton" elementinin görünür olması kontrol edilir
+* "last90DaysButton" elementine tıkla
+* "projectNameReportAmazon" elementinin text değeri "Amazon" değerine eşit mi
+
+ # Plan filtreleme kısmından <planName> adlı planı seç
+ * "plans" elementinin görünür olması kontrol edilir
+ * "plans" elementine tıkla
+ * "plansInput_ReportsPage_TestExecutionsAuto" elementinin görünür olması kontrol edilir
+ * "plansInput_ReportsPage_TestExecutionsAuto" elementine <planName> değerini yaz
+ * "firstPlanSearch" elementinin görünür olması kontrol edilir
+ * "firstPlanSearch" elementine tıkla
+ * "last90DaysButton" elementinin görünür olması kontrol edilir
+ * "last90DaysButton" elementine tıkla
+ * "planNameReportDeneme" elementinin text değeri "deneme" değerine eşit mi
+
+
+# Rastgele Proje Secimi
+* "projectsss" elementinin görünür olması kontrol edilir
+* "projectsss" elementine tıkla
+* "allProjects_ReportsPage_TestExecutionsAuto" elementine tıkla
+
+# Properties sayfasının ekrana geldiği görülür
+* Şu anki url "https://testinium.io/scenario/edit" içeriyor mu
+* "prpertiesText" elementinin var olduğu kontrol edilir
+* "IDETab" elementinin var olduğu kontrol edilir
+
+# Senaryo ismi rastgele bir isim ile değiştirilir
+* Rastgele bir kelime üret
+* "scenarioName_CreateNewScenarioPage" elementinin görünür olması kontrol edilir
+* "scenarioName_CreateNewScenarioPage" elementinin değerini temizle
+* Urettigimiz random kelimeyi  "scenarioName_CreateNewScenarioPage" alanına yaz
+
+#Senaryo ismi kontrol edilir
+* "scenarioName_CreateNewScenarioPage" elementinin görünür olması kontrol edilir
+* Urettigimiz random kelimeyi "scenarioName_CreateNewScenarioPage" degeri ile esit mi
+
+# Senaryo isminin aynı olmadığı görülür
+* "scenarioName_CreateNewScenarioPage" elementinin görünür olması kontrol edilir
+* Urettigimiz random kelimeyi "scenarioName_CreateNewScenarioPage" degeri ile esit değil  mi
+
+#Set System Parameters Name kısmına rastgele kelime yazılır
+* Rastgele bir kelime üret
+* "setSystemParameterName" elementinin görünür olması kontrol edilir
+* Urettigimiz random kelimeyi  "setSystemParameterName" alanına yaz
+
+#Set System Parameters Name ve value kısmına rastgele kelime yazılır
+* Rastgele bir kelime üret
+* "setSystemParameterName" elementinin görünür olması kontrol edilir
+* Urettigimiz random kelimeyi  "setSystemParameterName" alanına yaz
+* Rastgele bir kelime üret
+* "setSystemParameterValue" elementinin görünür olması kontrol edilir
+* Urettigimiz random kelimeyi  "setSystemParameterValue" alanına yaz
+
+
+# Consept ve Spec dosyalarının sıralandığı görülür
+* "conceptFile" elementinin görünür olması kontrol edilir
+* "conceptFile" elementinin var olduğu kontrol edilir
+* "conceptFile" elementine tıkla
+* "firstTestMethods" elementinin görünür olmadığı kontrol edilir
+* "specFile" elementinin görünür olması kontrol edilir
+* "specFile" elementinin var olduğu kontrol edilir
+* "specFile" elementine tıkla
+* "firstTestMethods" elementinin var olduğu kontrol edilir
+
+# Copy URL butonuna tıklanır
+* "copyUrlButton" elementinin görünür olması kontrol edilir
+* "copyUrlButton" elementine tıkla
+
+# Butona tıklandığında <expectedText> ifadesinin ekrana geldiği görülür
+* "copiedText" elementinin text değeri "Copied" değerini içeriyor mu
+
+# Spec ve cpt dosyalarının select source file başlığının altında sıralandığı görülür
+* "selectSpecFile" elementinin görünür olması kontrol edilir
+
+# Select Source File başlığının altında spec dosyasına tıklanır
+* "selectSpecFile" elementinin görünür olması kontrol edilir
+* "selectSpecFile" elementine tıkla
+
+# Select test methods başlığı altındaki tag dosyalarının sıralandığı görülür
+* "selectTestMethod" elementinin görünür olması kontrol edilir
+
+# File Content tarafında herhangi değişiklik yapmadan save butonuna tıklanır
+* "fileContentSaveButton" elementinin görünür olmadığı kontrol edilir
+* "fileContentSaveButton" elementine tıkla
+
+# Save butonunun active olmadığı görülür
+* "successMessage" elementinin görünür olmadığı kontrol edilir
+
+# File Content tarafında değişiklik yapıldıktan sonra save butonuna tıklanır
+* "fileContentLine" elementinin var olduğu kontrol edilir
+* "fileContentLine" elementine tıkla
+* Rastgele bir kelime üret
+* Urettigimiz random kelimeyi  "fileContentLine" alanına yaz
+* "fileContentSaveButton" elementinin görünür olmadığı kontrol edilir
+* "fileContentSaveButton" elementine tıkla
+
+# Save butonunun active olduğu görülür
+* "successMessage" elementinin görünür olması kontrol edilir
+
+
+# <expectedText> yazısının ekrana geldiği görülür..
+* "textMessage" elementinin text değeri "This field is required" değerini içeriyor mu
+
+# Set System Parameters Name kısmına <text> kelimesini yaz
+* sayfayı aşağı kaydır
+* "setSystemParameterName" elementinin görünür olması kontrol edilir
+* "setSystemParameterName" elementine <text> değerini yaz
+* "1" saniye bekle
+
+# Add butonuna tıklanır
+* "addButton" elementinin görünür olması kontrol edilir
+* "addButton" elementine tıkla
+
+# Add butonuna tıklanır ve sadece name ile eklenemediği görülür
+* "addButton" elementinin görünür olması kontrol edilir
+* "addButton" elementine tıkla
+* "valueRequiredMessage" elementinin görünür olması kontrol edilir
+* "valueRequiredMessage" elementine tıkla
+* "invalidParameterTypeMessage" elementinin görünür olması kontrol edilir
+* "invalidParameterTypeMessage" elementine tıkla
+
+#Add butonuna tıklanır ve sadece name value ile eklenemediği görülür
+* "addButton" elementinin görünür olması kontrol edilir
+* "addButton" elementine tıkla
+* "invalidParameterTypeMessage" elementinin görünür olması kontrol edilir
+* "invalidParameterTypeMessage" elementine tıkla
+
+# Apply butonuna tıklanır ve kontrolu yapılır
+* "fileContentLine" elementinin görünür olması kontrol edilir
+* sayfayı aşağı kaydır
+* "applyButton" elementinin görünür olması kontrol edilir
+* "applyButton" elementine tıkla
+* "scenarioSuccessMessage" elementinin görünür olması kontrol edilir
+
+# <expectedText> yazısının ekrana geldiği görülür
+* "scenarioSuccessMessage" elementinin görünür olması kontrol edilir
+* "scenarioSuccessMessage" elementinin text değeri "Scenario successfully updated." değerine eşit mi
+
+
+# Properties sayfasında kalınır
+* Şu anki url "https://clouddev.testinium.io/scenario/edit/15552/properties" ile aynı mı
+
+# Save butonuna tıklanır.
+* "saveButton_Properties" elementinin görünür olması kontrol edilir
+* "saveButton_Properties" elementine tıkla
+
+# All Scenarios sayfasına yönlendirildiği görülür
+* Şu anki url "https://clouddev.testinium.io/scenario" ile aynı mı
+
+# Cancel butonuna tıklanır.
+* "cancelButton" elementinin görünür olması kontrol edilir
+* "cancelButton" elementine tıkla
+

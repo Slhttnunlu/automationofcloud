@@ -1,0 +1,97 @@
+
+# Scenarios tabına tıklanır
+* "scenariosTab_SideBarTabs" elementine tıkla
+* "scenariosTab_SideBarTabs" elementinin var olduğu kontrol edilir
+
+# Create New Scenario tabına tıklanır
+* "createNewScenarioTab" elementinin görünür olması kontrol edilir
+* "createNewScenarioTab" elementine tıkla
+
+# Proje seçilir
+* "projectDropdownOnScenariosPage" elementinin görünür olması kontrol edilir
+* "projectDropdownOnScenariosPage" elementine tıkla
+* "firstProjectOnScenariosPage" elementinin görünür olması kontrol edilir
+* "firstProjectOnScenariosPage" elementine tıkla
+* "1" saniye bekle
+
+# <projectName> adlı proje seçilir.
+* "projectNameList" elementinin görünür olması kontrol edilir
+* "projectNameList" select element by text <projectName>
+
+#Random bir kelime girip daha sonra bunu başka bir değer ile karşılaştırmak istiyorum
+* Rastgele bir kelime üret
+* Üretilen kelimeyi "scenarioName_CreateNewScenarioPage" alanına gir
+
+# Senaryo adı girilir
+* "scenarioName_CreateNewScenarioPage" elementine random  değerini yaz
+
+# Select Source File sayfasından dosya seçilir
+* "selectSpecFile" elementinin görünür olması kontrol edilir
+* "selectSpecFile" elementine tıkla
+
+# Select Source File sayfasından cpt dosya seçilir
+* "selectSourceFileCpt" elementinin görünür olması kontrol edilir
+* "selectSourceFileCpt" elementine tıkla
+# Select Source File sayfasından spec file seçilir
+* "selectSpecFile" elementinin görünür olması kontrol edilir
+* "selectSpecFile" elementine tıkla
+
+# Save butonuna tıklanır
+* "fileContentLine" elementinin görünür olması kontrol edilir
+* sayfayı aşağı kaydır
+* sayfayı aşağı kaydır
+* "saveButton_CreateNewScenario" elementinin görünür olması kontrol edilir
+* "saveButton_CreateNewScenario" elementine tıkla
+
+# Edit Save butonuna tıklanır
+* "fileContentLine" elementinin görünür olması kontrol edilir
+* sayfayı aşağı kaydır
+* sayfayı aşağı kaydır
+* "editSaveButton_CreateNewScenario" elementinin görünür olması kontrol edilir
+* "editSaveButton_CreateNewScenario" elementine tıkla
+
+# Create Scenario Save butonuna tıklanır
+* sayfayı aşağı kaydır
+* sayfayı aşağı kaydır
+* "saveButton_CreateNewScenario" elementinin görünür olması kontrol edilir
+* "saveButton_CreateNewScenario" elementine tıkla
+
+# Cancel butonuna tıklanır
+* "cancelButton_createNewScenario" elementinin görünür olması kontrol edilir
+* "cancelButton_createNewScenario" elementine tıkla
+
+# <expectedText> yazısının geldiği görülür
+* "WarningMessage" elementinin text değeri "Copied" değerini içeriyor mu
+
+# <expectedText> yazısının geldiği görülür.
+* "ThisFieldRequiredMessage" elementinin text değeri "This field is required." değerini içeriyor mu
+
+# <expectedText> yazısının ekrana geldiği görülür.
+* "ThisFieldRequiredMessage" elementinin text değeri "This field is required." değerini içeriyor mu
+
+# Select Source File kısmının kırmızı renk olduğu görülür
+* "redBorder" elementinin görünür olması kontrol edilir
+
+# Select Test Methods kısmının kırmızı renk olduğu görülür
+
+* "redBorderMethods" elementinin görünür olması kontrol edilir
+
+# Select Test Methods sayfasından senaryo seçilir
+* "adresegitmethodu" elementinin görünür olması kontrol edilir
+* "adresegitmethodu" elementine tıkla
+
+# Scenarios sayfasına geldiği görülür
+* Şu anki url "https://testinium.io/scenario" içeriyor mu
+
+# Kayıtlı senaryo aranır
+* "searchButton" elementinin var olduğu kontrol edilir
+* "searchButton" elementine tıkla
+* Urettigimiz random kelimeyi  "searchButton" alanına yaz
+
+# Senaryonun editine girilir
+* "EditButtonForScenario" elementinin görünür olması kontrol edilir
+* "EditButtonForScenario" elementine tıkla
+
+#Senaryoya girilir ve isim kontrolu yapılır
+*  Senaryonun editine girilir
+* Urettigimiz random kelimeyi "scenarioName_CreateNewScenarioPage" degeri ile esit mi

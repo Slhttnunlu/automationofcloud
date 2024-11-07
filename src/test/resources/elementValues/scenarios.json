@@ -1,0 +1,339 @@
+
+[
+  {
+    "key": "scenariosTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//a[@href='/scenario']/span[text()='Scenarios']",
+    "type": "xpath"
+  },
+  {
+    "key": "projectTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//a[@href='/project']/span[text()='Projects']",
+    "type": "xpath"
+  },
+  {
+    "key": "plansTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//a[@href='/plan']/span[text()='Plans']",
+    "type": "xpath"
+  },
+  {
+    "key": "reportsTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//i[contains(@class,'fa-chevron-down')]",
+    "type": "xpath"
+  },
+  {
+    "key": "testExecutionsAutoTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//a[@href='/report']",
+    "type": "xpath"
+  },
+  {
+    "key": "scheduledReportsTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//a[@href='/report/scheduled']",
+    "type": "xpath"
+  },
+  {
+    "key": "smartPrioritizationReportTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//a[@href='/report/graph']",
+    "type": "xpath"
+  },
+  {
+    "key": "automatedTestsTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//a[@href='/automated']/span[text()='Automated Tests']",
+    "type": "xpath"
+  },
+  {
+    "key": "liveTestingTab_SideBarTabs",
+    "value": "//div[@class='sidebar']//span[@class='link_name' and normalize-space(text())='Live Testing']//parent::a",
+    "type": "xpath"
+  },
+  {
+    "key": "homeIcon",
+    "value": "//a[@class='logo fa fa-home']",
+    "type": "xpath"
+  },
+  {
+    "key": "reportTab",
+    "value": "//div[@class='sidebar']//a[@href='/report']",
+    "type": "xpath"
+  },
+  {
+    "key": "projectNameList",
+    "value": "div[class='form-group ng-star-inserted']>nz-select>nz-select-top-control>nz-select-search>input",
+    "type": "css"
+  },
+  {
+    "key": "editButton_ScenarioPage",
+    "value": "button[ng-reflect-router-link='./edit/15552']",
+    "type": "css"
+  },
+  {
+    "key": "copyUrlButton",
+    "value": "div[class*='copy-button']>button",
+    "type": "css"
+  },
+  {
+    "key": "copiedText",
+    "value": "div[class*='simple-notification']>div",
+    "type": "css"
+  },
+  {
+    "key": "selectSourceFileSpec",
+    "value": "//span[@node-path='Companies/companies.spec']",
+    "type": "xpath"
+  },
+  {
+    "key": "selectSourceFileCpt",
+    "value": "//span[@node-path='Companies/companies.cpt']",
+    "type": "xpath"
+  },
+  {
+    "key": "selectTestMethod",
+    "value": "//div[@class='panel-heading ng-tns-c290-14']/b[text()='SELECT TEST METHODS*']",
+    "type": "xpath"
+  },
+  {
+    "key": "fileContentPage",
+    "value": "//div[@class='panel-heading margin-left-10 ng-tns-c290-14']/b[text()='FILE CONTENT']",
+    "type": "xpath"
+  },
+  {
+    "key": "saveButton_Properties",
+    "value": "//button[@class='btn btn-primary btn-lg ng-tns-c319-8 ng-star-inserted ladda-button']",
+    "type": "xpath"
+  },
+  {
+    "key": "textMessage",
+    "value": "div[class*='sn-content']",
+    "type": "css"
+  },
+  {
+    "key": "addButton",
+    "value": "button[class*='btn btn-outline ng-tns']",
+    "type": "css"
+  },
+  {
+    "key": "cancelButton",
+    "value": "//button[text()='CANCEL ']",
+    "type": "xpath"
+  },
+  {
+    "key": "saveButton_CreateNewScenario",
+    "value": "button[class*='btn btn-primary btn-lg ng-tns']",
+    "type": "css"
+  },
+  {
+    "key": "editSaveButton_CreateNewScenario",
+    "value": "button[class*='btn btn-primary btn-lg ng-tns']",
+    "type": "css"
+  },
+  {
+
+    "key": "cancelButton_createNewScenario",
+    "value": "//div[normalize-space(.)='CANCEL']//parent::button",
+    "type": "xpath"
+  },
+  {
+    "key": "createNewScenarioTab",
+    "value": "button[routerlink='/scenario/create']",
+    "type": "css"
+  },
+  {
+    "key": "scenarioName_CreateNewScenarioPage",
+    "value": "scenarioName",
+    "type": "id"
+  },
+  {
+    "key": "selectSourcefile",
+    "value": "//span[contains(text(),'example.spec')]",
+    "type": "xpath"
+  },
+  {
+    "key": "selectSpecFile",
+    "value": "//span[contains(text(),'example.spec')]",
+    "type": "xpath"
+  },
+  {
+    "key": "WarningMessage",
+    "value": "span[class='error-block ng-tns-c319-4 ng-star-inserted']",
+    "type": "css"
+  },
+  {
+    "key": "ThisFieldRequiredMessage",
+    "value": "span[class*='error-block']",
+    "type": "css"
+
+  },
+  {
+    "key": "redBorder",
+    "value": "div[class='source-tree-parent ng-tns-c319-4 ng-star-inserted error-border']",
+    "type": "css"
+  },
+  {
+    "key": "redBorderMethods",
+    "value": "div[class*='error-border']",
+    "type": "css"
+  },
+  {
+    "key": "selectTestMethod_ScenariosPage",
+    "value": "//div[@class='ng-tns-c319-7 ng-star-inserted']//following-sibling::label[text()='@CompaniesSayfasindanDashboardSayfasinaGecis']",
+    "type": "xpath"
+  },
+  {
+    "key": "setSystemParameterName",
+    "value": "javaParameterName",
+    "type": "id"
+  },
+  {
+
+    "key": "setSystemParameterValue",
+    "value": "javaParameterValue",
+    "type": "id"
+  },
+  {
+    "key": "applyButton",
+    "value": "//span[text()='APPLY ']",
+    "type": "xpath"
+  },
+  {
+    "key": "projectName_createProject",
+    "value": "//span[text()='EnterpriseOtomasyonSena']",
+    "type": "xpath"
+  },
+  {
+    "key": "createNewProject_clickButton",
+    "value": "nz-select[class='ant-select ng-tns-c1333994341-55 ng-tns-c2869038095-56 ant-select-show-arrow ant-select-show-search ant-select-single ng-valid ng-star-inserted ng-touched ng-dirty']>nz-select-top-control>nz-select-search",
+    "type": "css"
+  },
+  {
+    "key": "scenariosPageSearch",
+    "value": "input[class='ant-input mb-lg form-control input-sm search ng-untouched ng-pristine ng-valid ant-input-stepperless']",
+    "type": "css"
+  },
+  {
+    "key": "scenariosPageProjectDropdown",
+    "value": "aside[class='filter js-equal-height']>div:nth-of-type(3)>nz-select>nz-select-top-control",
+    "type": "css"
+  },
+  {
+    "key": "scenariosPagePlansDropdown",
+    "value": "aside[class='filter js-equal-height']>div:nth-of-type(4)>nz-select>nz-select-top-control",
+    "type": "css"
+
+  },
+  {
+    "key": "scenariosPageTable",
+    "value": "table[class='table table-has-child']",
+    "type": "css"
+  },
+  {
+    "key": "scenariosPageScenarioButtonCreateSubScenario",
+    "value": "table[class='table table-has-child']>tbody>tr:nth-of-type(1)>td:nth-of-type(4)>a:nth-of-type(1)",
+    "type": "css"
+  },
+  {
+    "key": "EditButtonForScenarioGroup",
+    "value": "table[class='table table-has-child']>tbody>tr:nth-of-type(1)>td:nth-of-type(4)>a:nth-of-type(2)",
+    "type": "css"
+  },
+  {
+    "key": "DeleteButtonForScenarioGroup",
+    "value": "table[class='table table-has-child']>tbody>tr:nth-of-type(1)>td:nth-of-type(4)>button",
+    "type": "css"
+  },
+  {
+    "key": "projectDropdownOnScenariosPage",
+    "value": "div[class='container-fluid']>div>app-scenario-create-properties>div>div:nth-of-type(2)>div:nth-of-type(1)>form>div>div:nth-of-type(2)>div:nth-of-type(1)>nz-select>nz-select-arrow",
+    "type": "css"
+  },
+  {
+    "key": "firstProjectOnScenariosPage",
+    "value": "div[class='cdk-virtual-scroll-content-wrapper']>nz-option-item:nth-of-type(1)",
+    "type": "css"
+  },
+  {
+    "key": "randomkelime",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "adresegitmethodu",
+    "value": "//label[contains(text(),'@adrese git')]",
+    "type": "xpath"
+  },
+  {
+    "key": "searchButton",
+    "value": "//aside[@class='filter js-equal-height']//div[2]//input",
+    "type": "xpath"
+  },
+  {
+    "key": "EditButtonForScenario",
+    "value": "table[class='table table-has-child']>tbody>tr:nth-of-type(1)>td:nth-of-type(4)>a:nth-of-type(1)",
+    "type": "css"
+  },
+  {
+    "key": "selectedProject",
+    "value": "div[class='ant-select-item-option-content']",
+    "type": "css"
+  },
+  {
+    "key": "prpertiesText",
+    "value": "//a[contains(text(),'Properties')]",
+    "type": "xpath"
+  },
+  {
+    "key": "IDETab",
+    "value": "//a[contains(text(),'IDE')]",
+    "type": "xpath"
+  },
+  {
+    "key": "conceptFile",
+    "value": "//span[contains(text(),'.cpt')]",
+    "type": "xpath"
+  },
+  {
+    "key": "specFile",
+    "value": "//span[contains(text(),'.spec')]",
+    "type": "xpath"
+  },
+  {
+    "key": "firstTestMethods",
+    "value": "div[class*='methods-selection']>div:nth-of-type(2)>div>p:nth-of-type(1)",
+    "type": "css"
+  },
+  {
+    "key": "fileContentSaveButton",
+    "value": "button[class*='btn btn-sm btn-primary margin-right']",
+    "type": "css"
+  },
+  {
+    "key": "successMessage",
+    "value": "//div[contains(text(),'File successfully updated.')]",
+    "type": "xpath"
+  },
+  {
+    "key": "fileContentLine",
+    "value": "div[class='ace_layer ace_text-layer']>div:nth-of-type(15)>span",
+    "type": "css"
+  },
+  {
+    "key": "valueRequiredMessage",
+    "value": "//span[contains(text(),'Value is required.')]",
+    "type": "xpath"
+  },
+  {
+    "key": "invalidParameterTypeMessage",
+    "value": "//span[contains(text(),'Invalid parameter type.')]",
+    "type": "xpath"
+  },
+  {
+    "key": "scenarioSuccessMessage",
+    "value": "//div[contains(text(),'Scenario successfully updated.')]",
+    "type": "xpath"
+  }
+
+]
+
+
+
+
+
+

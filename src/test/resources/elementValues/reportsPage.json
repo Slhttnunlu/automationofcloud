@@ -1,0 +1,142 @@
+[
+  {
+    "key": "headerText_ReportsPage_TestExecutionsAuto",
+    "value": "//a[contains(@class,'logo')]//following-sibling::ul//a[@href='/report' and text()='Reports']",
+    "type": "xpath"
+  },
+  {
+    "key": "exportTableButton_ReportsPage_TestExecutionsAuto",
+    "value": "button[class='btn btn-sm margin-left-5']",
+    "type": "css"
+  },
+  {
+    "key": "projectsBox_ReportsPage_TestExecutionsAuto",
+    "value": "aside[class='filter js-equal-height']>div:nth-of-type(2)>nz-select>nz-select-top-control>nz-select-search",
+    "type": "css"
+  },
+  {
+    "key": "projectsBoxInput_ReportsPage_TestExecutionsAuto",
+    "value": "aside[class='filter js-equal-height']>div:nth-of-type(2)>nz-select>nz-select-top-control>nz-select-search>input",
+    "type": "css"
+  },
+  {
+    "key": "plansBox_ReportsPage_TestExecutionsAuto",
+    "value": "aside[class='filter js-equal-height']>div:nth-of-type(3)>nz-select>nz-select-top-control>nz-select-search",
+    "type": "css"
+  },
+  {
+    "key": "runDateForm_ReportsPage_TestExecutionsAuto",
+    "value": "aside[class='filter js-equal-height']>div:nth-of-type(4)",
+    "type": "css"
+  },
+  {
+    "key": "showOnlyFailedTests_ReportsPage_TestExecutionsAuto",
+    "value": "//app-checkbox[@text='Show only failed tests']//label",
+    "type": "xpath"
+  },
+  {
+    "key": "projectsTable_ReportsPage_TestExecutionsAuto",
+    "value": "//table[.//th[text()='PLAN NAME'] and .//th[text()='PROJECT NAME'] and .//th[text()='RUN DATE'] and .//th[text()='RUNTIME'] and .//th[text()='TEST RESULT']]",
+    "type": "xpath"
+  },
+  {
+    "key": "paginationBar_ReportsPage_TestExecutionsAuto",
+    "value": "pagination.pagination-sm",
+    "type": "css"
+  },
+  {
+    "key": "projectNameOnList_ReportsPage_TestExecutionsAuto",
+    "value": "//div[@class='panel-body']//tbody//tr//td[.//span[text()='PROJECT NAME']]",
+    "type": "xpath"
+  },
+  {
+    "key": "planNameOnList_ReportsPage_TestExecutionsAuto",
+    "value": "//div[@class='panel-body']//tbody//tr//td[.//span[text()='PLAN NAME']]",
+    "type": "xpath"
+  },
+  {
+    "key": "runDateOnList_ReportsPage_TestExecutionsAuto",
+    "value": "//div[@class='panel-body']//tbody//tr//td[.//span[text()='RUN DATE']]",
+    "type": "xpath"
+  },
+  {
+    "key": "dateFrom_ReportsPage_TestExecutionsAuto",
+    "value": "input#dateFrom",
+    "type": "css"
+  },
+  {
+    "key": "dateTo_ReportsPage_TestExecutionsAuto",
+    "value": "input#dateTo",
+    "type": "css"
+  },
+  {
+    "key": "bugs_ReportsPage_TestExecutionsAuto",
+    "value": ".fa.fa-bug",
+    "type": "css"
+  },
+  {
+    "key": "reportsTextOnTestExecutions_ReportsPage",
+    "value": "//a[contains(text(), 'Reports')]",
+    "type": "xpath"
+  },
+  {
+    "key": "executionDetailTextOnTestExecutions_ReportsPage",
+    "value": "h4[class='margin-top-0']",
+    "type": "xpath"
+  },
+  {
+    "key": "projectNameReportAmazon",
+    "value": "//table[@class='table table-with-checkbox ng-star-inserted']//tbody//tr[1]//td[3][contains(text(),'Amazon')]",
+    "type": "xpath"
+  },
+  {
+    "key": "planNameReportDeneme",
+    "value": "//table[@class='table table-with-checkbox ng-star-inserted']//tbody//tr[1]//td[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "allProjects_ReportsPage_TestExecutionsAuto",
+    "value": "div[class='cdk-virtual-scroll-content-wrapper']>nz-option-item",
+    "type": "css"
+  },
+  {
+    "key": "projectNameOnList_ReportsPage_TestExecutionsAuto",
+    "value": "aside[class='filter js-equal-height']>div:nth-of-type(2)>nz-select>nz-select-arrow>span",
+    "type": "css"
+  },
+  {
+    "key": "projectsss",
+    "value": "aside[class='filter js-equal-height']>div:nth-of-type(2)>nz-select",
+    "type": "css"
+  },
+  {
+    "key": "textProject",
+    "value": "",
+    "type": "css"
+  },
+  {
+    "key": "last90DaysButton",
+    "value": "//button[contains(text(),' Last 90 Days ')]",
+    "type": "xpath"
+  },
+  {
+    "key": "firstProjectSearch",
+    "value": "div[class='ant-select-item-option-content']",
+    "type": "css"
+  },
+  {
+    "key": "firstPlanSearch",
+    "value": "div[class='ant-select-item-option-content']",
+    "type": "css"
+  },
+  {
+    "key": "plans",
+    "value": "plans",
+    "type": "id"
+  },
+  {
+    "key": "plansInput_ReportsPage_TestExecutionsAuto",
+    "value": "aside[class='filter js-equal-height']>div:nth-of-type(3)>nz-select>nz-select-top-control>nz-select-search>input",
+    "type": "css"
+  }
+]
